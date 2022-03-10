@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* overlay scrollbar above the content */
+  /* only supported on webkit-based browsers */
+  overflow: overlay;
+}
